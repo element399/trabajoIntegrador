@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="trabajoIntegrador.css">
+    <link rel="stylesheet" type="text/css" href="/bootstrap/normalize.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/hint.css/2.7.0/hint.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <title>Trabajo integrador Css3</title>
+    <style>
+        img{
+            width: 25%;
+        }
+        .card-img-top{
+            width: 100%;
+            height: 400px;
+        }
+        section{
+            position:relative;
+            display:flex;
+            justify-content: flex-end;
+        }
+        .clearfix{
+            margin-top:30px;
+        }
+        .ignite{
+            text-decoration:underline;
+            color:red;
+        }
+        .ignite:hover{
+            cursor: help;
+        }
+        #exampleFormControlTextarea1{
+            resize:none;
+        }
+        .principal{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        #formulario{
+            width: 100%;
+        }
+        #divFormulario{
+            width: 80%;
+        }
+        .footer__ul{
+            background: #411848;
+            list-style: none;
+            color:#fff;
+        }
+        .card-img-overlay{
+            width:35%;
+            margin-left:60%;
+            color:#fff;
+            position:absolute;
+            display: flex;
+            justify-content: flex-end;
+            align-items: flex-end;
+            flex-direction:column;
+        }
+    </style>
+</head>
+<header class="sticky-top">
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand text-light" href="#"><img src="https://lh3.googleusercontent.com/zEQqdEROO3ivzy68adJWCzK_2Sega7uOggnJWfdIjzExJH22Tw4pQz6h1-v7ffXQrbue5ubIDD0zbZcMu-riDRwrpjEM8dw-VeJ1lloMlfrPpVt-HpJAkTIOxKfA7wyYsNa6cUQWwN-8bfS28JkmP6e1hJewaMuv93siIr4iE9kmuQ0T7oyjCc4WRVD_LUQMQIn2QEgndekCTHc5Yj79YYYPa-QxNw9G8SGpcC4j5B5T-nWlRyOdz0dvk8SXtTxX9I7LPYNY5tlndCqYaDW08IvlhJdChaYdjRxmIPQXeACJvjHDxP-5iIbb8N5ZnLBtFge6Otzq9gy-xDD1K2ztUIyfFL-W08m0BmD-QaZy8F5fAhxhMuAC9st4AaDLoFo8L_M6gVuQFxL_QROcx5b0hjvGOFSTMRb-Ptj_7mwwttsFw0ZWdBaJ1R1npDQZd2tLu3DiB3kXb_aM38GSSpTE4vL5HDez_Cd3B5x6h4tH1lZu3qQdzC_6gDyBIRUrViip-9ENcUJL07JkYWIUpQM8nAGsJnxbC1cAQdpwnN6RMo9ekYbQxAUO5tzmUkb-7zDWjtsnHnOmOkuVYK4U_7jNQmMttwoG5qSaYR0b0A3xyosd8uQxlHLkSZaO8F6g7gyEvxJl0wqkHSoO2O_hz8R7flAx_fNvNLzsbvgKUmQIqnKxYNgXt-I5w3zfzQVsP0XFTzCsPy36CpW-HH0LNIumDa2wrMOYj-Py_Qfsf-NBjVDYna6NLG2tKPMm0QJ_a4iUS1srQW7pf2ZLVAIORLtHlzTLi4BNKCGp1K7kEWKIj94OWkcCybqa_bofRjCyFDVvnWw4wfrRApCvD9cIu_a6CgDJakv8uEKj6ARfc-cYOd5jLtCDUycxu3IgP63UmF76k2ADeEq8ImKHUR1i6sJGXpx1x_sOmikghROvGg=w349-h200-no?authuser=0">Conferencia en Buenos Aires</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active text-light" aria-current="page" href="#">La conferencia</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#">Los oradores</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#">Lugar y fecha</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#">Conviértase en orador</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-success" href="#">Comprar tickets</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+</header>
+<body>
+  <main>
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="https://lh3.googleusercontent.com/_L10BYR7N6TSlsYW_9tlJtjM2kVDqPNbFcEA4-QOa4wGT6PghAZ4qyZ6Q8EbA6zJztmkZFhG6XvoxwxwGEMk6bDWJ6rTIaiuSv1LEAEPOl9osXsTs7KDXwzst3_lamLMA07o48S8MsG5dMLd6bmHBIgtzoXDtCOWHp3HnLoXOZxSat-SbUcSXQrQSmdl5DQU4mQwZ_PT4FNnjsPt9kvcGkJMVG3FXGUaerSSJRdOo0jzrmb2olk3VSUzjWOySd3ceEHdpJPcdEO2Q-sFCs2E5ll_r0YzKFK30NeFVEgj6M2zZIYaiZ-W8-BYga0JG8fn_0IF1xEKR4uFq2yYeqKuYiUGlzY0tX0r1q3JURBgRDIQqTGt0NfMVMS0PmEn2SPQwwQfd4fIN9natmuhh2w5YRDH6gBQaddRrTGpyJ8lvZCgv-VGYy9VNtyGpUahi1Dzz3veQnFFeOSiuQE6dF4a5mb-ohOrPR1xoEBPs4q-vz2XuyR_L3mQxzVwnRxb3Tju68vxFB2VtZNcVjpqUXCkhN1bnUYj8iiQV7Tl9OYtGyztwidrXMxqJYlrT8KkkKvKFI5WoEcXuQGs4SriiHif7WJYb1KX3O0ycdCFC-KfNS4sIjtuEbmooBo7P_Man4ms0b7DpuDCL6R1TcoeqWT3jZxgUKcvYutNs5EuXFIQPMp0p6TD4YjE51eLOW3UMEvbcB5uhZ7g_tXnfY8x0YeyaL0Ez37gNlWMpcJBRS0HxGAKa08QjjW0lwVACiGBL9JgcRUAoNH9sRFBEqnQYXBUFxvvtGUDiQvfT8fhW944q6sGJFSLFxXUpoP40jlQDG0AMU5KohF7NV7ezbKOsKSb2ScWNX08Mt4MWXe0on2xbqocVnyx8JYhKkpvgrqMo5FYEUWVtl8cZrRQgWZBBhyCP1Ub7W-JAWNF5afB0g=w1168-h657-no?authuser=0" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="https://lh3.googleusercontent.com/OQ1C3b3_zH76Lb7QZjM98he4hSwB31hWd11_pvP8z4Pzp9BndbaISUYz2h_gPnZ0PmCuii_Kdc3JBgYX88GI0MjDs82VyuF0rSezZd0xsPvujBw8rGX_6S2UNR8JxOIJX9J_pWpcsZSAme2PZv61AgMw9QHP0WqBH-ZcTjvLaKm15yi-RPmiOddEjup9q1G_iJY2_BboHdqVE4RKali39kkfViWfj3Q7QGDwh8k23k50YfLM6s0dABk2MXGX2MDpxM0H2YWiZpX1mXB-6FuEK5FZkMaXLJCcr0uqEW0ejxvim-XgRJh1DKP8polkhzgc52g4cRM08fzmTyOSkwciTIxD0GZvu4DgooWKB9qypj246kv1OT2sQvTM77-XseKwQdxCbAvK0Mt6KH3l9M5kru84eth0XdedXg53T0DUZRg0Xp-bQwWeeN3A0xOVbGTbt3Ry4K9QGAG4bsgyZjoato5dOgoDsZnmh3n2CT2PERgpWUSG_kMzSBOcOa76LDpbJwhyXXgKBi1SPQpzUd78BfqQYZ1C-G-ojkZkB6ZJ-KgpwvLJXbXscB9u9HEPjQNTDgklXtaygW7_bKQaRyIAF_3ZFlAI9ksLcFCRUEEq5kft-keI6rZolIXciN5ib8cwUe0n38W-kR_wJ9XlrE_7PBi4lDB48ZlRFFNX5JeOiE60JZkMnfRPEnX_OIc3VaKM9yC1q1EgeyOQF7DDLK8QUqWcFU6FS648Win-Cjo4n5M-FeayFJyRaVJKF23WMvVJJwzLqso7BDk_oNdQAX2VQoeBaSALRKevFiYpKLmE9DU832fZm5S9CbKvRD0YlOdhQKDvHdup_Srz-OFfreF110t0FO-_LtR4K0r0c1iFolSaUXUbV8tvgLqU-_SuQbwCQfEL4FKH1ygR5WOAtIv7vnz6PpxGkmrrpj5C7g=w1168-h657-no?authuser=0" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="https://lh3.googleusercontent.com/o60lQd8skrqK4ueY6i5zBeNpdDvAZprsMyoVhyrbtBFpfz1QAK5PrAM8groFm4ks0pgbCZYRQr9ni6Qtws6AnaYsLGrU6n5hmBnv7nrFSFGhAFAbhKTR7NfPAHUVp0J2A-SKjk8Dxt2dyEZt2in8DdcU5ytTdu8zI7hEpkIq38A2tYWc4YBs158JOx6romapIyDIvl8gRVsVToVtYYq1ePywpCDLNVF_GOzHlFP07glmYaxn75whxU6itLt-F5eCY-DzMYGIfDOXERFdrbuGvzBTplPlLuoduP7xzfGaaLjrCtucZOMiUUKA6SBXH3LxTPsSSSlXq_4hCkZ8vcqRn8ng8cguBvgAEyTu11nKMc7RzW6By83K4KSCxsTHiZNMjBV7VDVEdqmDkAwguOiObBeH3RK23baXy6hXfdHuySV6odaYMju917EHdrOG1adklyjveCN82Fw6_rYuwySQbq_oQ8q36gWhLnrovotL1r4P2xjUqoeMIcgkNcpmC0wRvhc1_jd1aEYB-CHdcdvXvMcEGetwkBppvaxUMe4QWS-V58mxytBoHAnU0w8X8E-KoAGXdRKzBJvzw2631Sd-I1u6FR4nk_1iIVfV3HAvV8MwOUcfor_KnO0RB3OuHHJo9ojp_KxINC7mHvJn9wSDh0heyxinBfhukSnbfLdeJGK6zEoMfP0UbCrIxJqyp9wc4PFzhD2Rmcj3JrOnG-ZL8Wb41sW4pRq5VklwP9ulrr1kAAL5W7NoKNdBGtUeF3lsRGBRURfIZ2-9qGIJxNE7-Sa6-O_5WgMC9BCWPaqhVTsyC1aJlzdsW8ZNxWlppZJwGrtfXgZT6EeP2w80GLe89NVb4ZHM-4Xprko992RbSXiyDTnFsIwgRlsr-vLkxiCtmcQxK4n2FGyfFNQQFZ2wtx224urXmhKMP4CcUw=w1168-h657-no?authuser=0" class="d-block w-100" alt="...">
+        </div>
+      </div>
+    </div>
+    <section class="container text-end">
+      <div class="card-img-overlay">
+        <h2>Conferencia en Buenos Aires</h2>
+        <p class="d-none d-md-block">Bs As Conf llega por primera vez a Argentina. Un evento para compartir con nuestra comunidad el conocimiento y experiencia de los expertos que estan creando el futuro de internet. Ven a conocer a los miembros del evento, a otros estudiantes y a los oradores de primer nivel que tenemos para ti. Te esperamos!</p>
+      <div>
+        <button class="btn btn-white border-white text-white">Quiero ser orador</button>
+        <button class="btn btn-success">Comprar ticket</button>
+      </div>  
+      </div>
+    </section>
+    <div class="container text-center">
+      <h2>Conoce a los</h2>
+      <h2>Oradores</h2>
+    </div>
+    <div class="card-group text-center">
+      <div class="card">
+        <img src="https://lh3.googleusercontent.com/xQPtt4LwCKNUTBNZBYLIIu4XNo1hIF0T4NxSKyP2wuW_iFlRspjzqJmO_mck2jesJtPU45v1a04gLoR79-fOC1s1ZT06NWDAaO8vS9yLQPW6kwznRoJBrM9VgLXxl4iXQKCS1dZrCXK8xZvO08Z3nohj6JDyMP9ys7rR1GjZCEw4B87f8OARajEUH8wHUc7H58fEy0JXDUYq5Sl7i8ibIDXIVdeBnkDpbQBZjrwrExoZyFIumE9BVP24Qd1eSoIOi5ZhGDVuqgudDsgoPIgyf-P24EYXOf2Kn4SDHV7OYTIltq8t7-kzH5FaHmRKsDGjGylQAv6WM7aAIBF94Gt7DpBW8hDZClfwYfWoomYEfJyZD43TdLWzeTZm3LPuVulX8N4i2e27u2A2IDwmxxlKx9lIrxLmfDuNNeOY9hMfLKQQFXsmda0aSvtdlzj2M2pxvWGX_U1GVh6UWJe505pIMN9_i0oVHWEXcEeQni88vqIaAKfl18nVA_cA0r7Xsrbn0i3khidEfgCnPFbnfr2RmHBeIUTxOwHW0cZq4lMO1ghS_lWjrZzmnrQu2dsiRGAyl-TSjDF9jefzY_fQuZQu1jhaq1USQyD7M3g6nYRAVAdBldgXWBOMk0cHNtTy9evXkKlhCe6J2Dfe-_a7c5JLoxJgJh5weCNQMRUfpWcVUO7lsiIv8czt20DPOCent5pnLBt-xvU1laEb1jjYn7IYsxN1GtK0-z6Qh2tP9WpQ-o20VXuimoq3tsAotzNvb12arE3Emy_0PSsExWBZl646mwpsnefI5IjGamXxJwQ23MrRPgvq1McEea79DaDa1Jdzl3JHy6Ja9CyNK42AXLpaYrFzLshuZJfOAEqorBwBNabJmm7e64VGxTU2lyC00UST6Oevx0mrfhAsQIobBENkSSyECH64eDocavFfYw=w228-h221-no?authuser=0" class="card-img-top" alt="steve jobs">
+        <div class="card-body">
+          <button type="button" class="btn btn-warning">Apple</button> <button type="button" class="btn btn-primary">iPhone O.S.</button>
+          <h5 class="card-title">Steve Jobs</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam porro fugiat quam nam hic voluptatem dolorum quasi dolor, facilis quis eaque corporis sunt debitis minus, et quaerat? Reiciendis quia quo laborum ipsum nemo recusandae amet tempora repellendus dolor temporibus voluptatem voluptates, magni aliquid libero quae quam deserunt assumenda quos id!</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://lh3.googleusercontent.com/25dZl3R7HAgvsjhhviJFmmsqZjqmPBAql7o7gQV_9CzQd3aatO8MZ4OPkbR-3vmrQDafnmktvrXFZxypMCYXyH8y1QmkzKZo4ZCHtPA6OQzMwezEpBOasyw0ZrAFtTvYMpWUOW7iG3oalzSBZ2QGk7ow_sP9Jn4jP5Ux5lUDdx3WGwyVb8CO5JRgkO1xsxktPGlMLi0SNtdnOOOZgRcMNxJo1s24H32Zs3dpYo0nscj26zb4Fwyah06UMMz77YU3AZWqSxJ0Xdw7U01T70lf8j1HWg9LmXS5OJX8_gWrq_pqV4E2dHOFIEH_fWvpdtCfwYVH3VE9XBXjfUatRC85fi_xeCSXGkQGhaHse7I92_y-T8r9kAW0-zd6uGlXBLPmsS82xM4TRvSzHmdxExvmp9QK2Jc1N9ALX3GHsTShP2QJ3UEqI3itHRzi7vjZ9spq3B4zdulpJBmu0m9E2qDCokLL8zbL0s8ZwFqoIpIL2CunL93vJypjQpxZZRAUnQ2v3inWWQRpwSw3OExEqEE14NEEFvM4XXZPFaQrt2IdcmZu5bh1r3GN--bRmr5XXbHwwD82JoRKfx1I-b4kO8z_dk3YF7waeyOe8qW5IBBgkJFk_75nTGoUvSPWnXN-8Le0MskrvcC7ASxux-_hV7Xn2Eun1HpZ4fKgt_GuzJojSRdeOnH-fzcBfh5-37aQaHxX6PBuxIm1SZBpaJDMqzSlE9hcfGbPv1xfrQ27t-f4Jw65faPQ24u2G5Sa0rfFcE5Lekiwv_6s3SrtjrI-OhNblb1Kgv1iG2aMioHRaVK5qlzCU95bPnLzHZDgNfnPURGob1e_Xq5Ylsm07dUXVb0OmX7uoCcap5WlaLKK5ySEWD6VpU5wf76Czj8C3KYKwIiXbb2c_6noP2UcLsov89wmG7eyT0GcFv1xrnM6rQ=s645-no?authuser=0" class="card-img-top" alt="Bill Gates">
+        <div class="card-body">
+          <button type="button" class="btn btn-warning">Microsoft</button> <button type="button" class="btn btn-primary">Windows O.S.</button>
+          <h5 class="card-title">Bill Gates</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam porro fugiat quam nam hic voluptatem dolorum quasi dolor, facilis quis eaque corporis sunt debitis minus, et quaerat? Reiciendis quia quo laborum ipsum nemo recusandae amet tempora repellendus dolor temporibus voluptatem voluptates, magni aliquid libero quae quam deserunt assumenda quos id!</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://lh3.googleusercontent.com/5bep3UK_oydWxiR3C0GDRLMpiMq2kFLtQReI14Nct97zryPdY72jjJWdSWQP2eITb36L4O20QAIGHzXUiWii7xJEcK3qVosHAFhghIr2aXjRteAaEUN19h2C72FVmWUOxeHaA3zygVSdkeXo_0xLinymG7BpiJrFR4pLdz_NGApW3qUj8_0zSCPJFi7gVd__9xLlR3e6TqBNCFpXZRXTYhHiaHGamj_A-Er4-qgVQs-6BqasxyS3aZIghQ6o3Qv8k1P0BEFCFw8wvcrCratfOmEXcJeL62y3aOdkt8tXORK2JTKkGBb2dXRwYY3RtuzeH8DDpDoe3pf3vsJT-tjzRi8eDlQzQ4bFb316z6yE6z5UV0r0m5l7RpJE7KdsUyUdPBdIwI8cq541jsprrrG7sASEzAjM3ZEDyiu6exB1jTZfHtitqr-nTNhos9SFTOv7xWvJgz2ZHl8_DVGRuYatdCNCbkDRJaqf2vSFeqtEVuajOHI9xpxfKUCqEUD3frorF3kDxlb66Yc7OS9mObLBcasP85uRoPFfGtvghXYYOK0LjihlyNF7q2crPXWOnQykd-RQg4LXoOweYZ7JA0cyuIPe6OwV3hNn7Pp-teiztTx_xrNg588swzqr0K3ANrsJ9rtBmx8EHSc0GKZwCdcM954Lh2ko4qdbXcIKQxnPQll4jhnI2mQdR5gnX68iPtmAnm39fD3Kj7u6SkDCenUVYYPNGunGMD23Mah3BO-1dnqfN7wIjlBZpX3GXqwEuXSn4ZltwxuGOMHygwB8Q_AbyQeHBa8bnq682xsJ3q2jMHvbVaeqOVfIPKNY1fcqvNvluIZv0qx_gWORNHnkEx0yyKVsuUhyRncm5lFekB-MvSWnPj5vZiY8q4BjraKWRfedWvlvkJoEjnjL4Bf6XfZafqJM4Kj0Dmi94SUMVQ=s645-no?authuser=0" class="card-img-top" alt="Ada Lovelace">
+        <div class="card-body">
+          <button type="button" class="btn btn-secondary">Bussines</button> <button type="button" class="btn btn-danger">Startups</button>
+          <h5 class="card-title">Ada Lovelace</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam porro fugiat quam nam hic voluptatem dolorum quasi dolor, facilis quis eaque corporis sunt debitis minus, et quaerat? Reiciendis quia quo laborum ipsum nemo recusandae amet tempora repellendus dolor temporibus voluptatem voluptates, magni aliquid libero quae quam deserunt assumenda quos id!</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="clearfix bg-dark">
+      <img src="https://lh3.googleusercontent.com/WG-p3Nl8xvdSnodJn0HLHpDXgbjIiZF3uQ6uWG2ve6gTg72-wX8a3fJj1LbMgy580UbXkDI7G_reMmUCx42qv7A3-j5TpWQklADVd_wO7HK7ELuR0Zv4PAURJtTvC--tTLPnSpHuK5nBA8NPubpJHBwEOkZjpVhZNyb8_ohUFFPI2JgcyTziFHHj3A9tAvLGozBFUeOkdKVcQZQXviJowW_EFL_Wq936jOjC32P8o4m7DV0mINEtjUMj-QzEUCLgbtrGIHRBvs7AwSmKljDaTDAY_7HOLLKTy2UKWvewcHdnM-if_MZxF_-sFHqY2NIYX3m16JUOxFJN0SaUwDAJMG3KmtbcbOdqxedZPMUZbxpKnc522yMoyXn8gK2sJK81ljMlaTA6jBaQq7PXB2Wxxxx68AvuE2wxAfkXxGkiWnMa47Rhuj1bDk0iJlrhEFqCgYlsNZokUzGwl-gs4RyiVP2Ck3EWZNepFohg1qMR3oUbWXBJCVSQ2hjisS5G3YPLijMl5zaaC1ekgrWBSxfUJnLr3w3LmXYZ4byQCe8iCxOL2ui7WLSUexQkb6z7YuG1H86UHz1OXYqz0K3FD61w1ubUGsGBuw1tmlWoWK9hp61GdHutcrY3Af5_GZwB5p-nscgj9Bo_XRKpq3nBz5D-PRtAToTPRY9vq4Sg84W_gN-ehVAwuZm918nxrU3do_xJcZzN1bfOz6faP3GGpEl9eOrGRa-Qv_VfHGmaoO8EyUQ_BgUU6tgmtX_lENOLGs7sz6fDm_9W1WHsOiYdXCTjcUuHWpdm2eGdTxh7x4e2cMzkc83VvI1aH3GgiCqDIBH7Kep5ntLA5k-9Z-XOjHBpNykeHh3t8JCnojNtY3RupSPWizxdRBFadHl7TXjxbc15FMRVBG7DZnJf5jkGVkzQowqnsX5KX_xBtxX1LQ=w1036-h658-no?authuser=0" class="col-md-6 float-md-end mb-3 ms-md-3" alt="...">
+      <h2 class="text-light">Buenos Aires - Octubre 2022</h2>
+      <p class="text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure placeat aut non neque dolores impedit error aspernatur veniam rem id, quis quod corrupti est accusantium maxime, deserunt vel laboriosam ea perferendis sunt! Nisi at, corporis repellendus explicabo numquam incidunt magni architecto. Corporis, sint temporibus exercitationem quis laudantium eveniet nesciunt voluptatibus?</p>
+      <button type="submit" class="btn btn-white border-white text-white">Conoce más</button>
+    </div> 
+    </div>
+    <div class="container text-center">
+      <h3>CONVIÉRTASE EN UN</h3>
+      <h2>ORADOR</h2>
+      <p>Anótate como orador para dar una charla <span class="hint--top ignite" data-hint="charlas de cinco (5) minutos">ignite</span> en la conferencia. Cuéntenos de qué quiere hablar!</p>
+    </div>
+    <div class="principal">
+      <div class="mb-3" id="divFormulario">
+        <label for="exampleFormControlInput1" class="form-label"></label>
+        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nombre">
+        <label for="exampleFormControlInput2" class="form-label"></label>
+        <input type="text" class="form-control" id="exampleFormControlInput2" placeholder="Apellido">
+      </div>
+      <div class="mb-3" id="divFormulario">
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Sobre qué quieres hablar?"></textarea>
+        <label for="exampleFormControlTextarea1" class="form-label">Recuerda incluir un título para tu charla</label>
+        <button type="button" class="btn btn-success" id="formulario">Enviar</button>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div>
+      <ul class="text-center footer__ul">
+        <li>Preguntas frecuentes</li>
+        <li>Contactos</li>
+        <li>Prensa</li>
+        <li>Conferencias</li>
+        <li>Términos y condiciones</li>
+        <li>Privacidad</li>
+        <li>Estudiantes</li>
+      </ul>
+    </div>
+  </footer>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <!--<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>-->
+</body>
+</html>
